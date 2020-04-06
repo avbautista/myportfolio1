@@ -1,15 +1,31 @@
 .NavigationBar {
     background-color: rgba(0,0,0,0.6);
     height: 7vh;
-    min-height: 50px;
-    display: grid;
-    grid-template-columns: var(--navigation-percent) 1.1fr 0.9fr 0.9fr;
+    min-height: 60px;
     z-index: 1;
     font-size: 5px;
 }
 
+.navigationItems {
+  width: 95%;
+  display: grid;
+  grid-template-columns: var(--navigation-percent) 1.1fr 0.9fr 0.9fr;
+  margin-top: var(--default-margin-top);
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  font-size: 5px;
+}
+
+
 .active {
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .NavigationBar {
+    min-height: 50px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
