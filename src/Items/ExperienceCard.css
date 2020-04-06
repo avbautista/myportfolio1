@@ -8,3 +8,10 @@
   border: 2px solid rgba(0,0,0,0.7);
   border-radius: 3%;
 }
+
+.ExperienceCard h1 {
+  display: block;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}

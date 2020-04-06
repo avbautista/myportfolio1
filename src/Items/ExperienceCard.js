@@ -6,6 +6,7 @@ class ExperienceCard extends Component {
   render() {
     return (
       <div className='ExperienceCard'>
+        <h1>Workplace</h1>
       </div>
     );
   }
