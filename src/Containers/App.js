@@ -13,11 +13,11 @@ import Experience from '../Components/Experience';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <NavigationBar />
         <Switch>
-          <Route exact path="/portfolio-project" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/experience" component={Experience} />
           <Route path="/portfolio" component={Home} />
           <Route path="/contacts" component={Home} />
