@@ -1,0 +1,55 @@
+@import url("//fonts.googleapis.com/css?family=Playfair+Display");
+@import url("//fonts.googleapis.com/css?family=Merriweather");
+@import url("//fonts.googleapis.com/css?family=Circular");
+
+:root{
+  --fontsize-nav: 2rem;
+  --default-header-font: 'Playfair Display';
+  --default-text-font: 'Merriweather';
+  --default-title-font: 'Circular';
+  --default-highlight-color: rgba(29, 233, 206, 0.966);
+  --default-header-color: rgba(22, 182, 161, 0.966);
+  --default-title-color: rgba(11, 155, 136, 0.966);
+  --default-margin: 14px;
+  --default-margin-top: 1vh;
+  --default-margin-left: 2vw;
+  --navigation-percent: 70%;
+  --h1-content-font-size: 6.5vh;
+  --text-content-font-size: 3.5vh;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: 0px 0px 0px;
+}
+
+@media only screen and (max-width: 1500px) {
+  :root{
+    --fontsize-nav: 1.5rem;
+    --default-margin: 8px;
+    --navigation-percent: 65%;
+    
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  :root{
+    --fontsize-nav: 1.25rem;
+    --default-margin: 8px;
+    --navigation-percent: 55%;
+    --h1-content-font-size: 6vh;
+    --text-content-font-size: 3.5vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root{
+    --fontsize-nav: 0.8rem;
+    --default-margin: 2.2vh;
+    --default-margin-top: 1.7vh;
+    --default-margin-left: 4vw;
+    --navigation-percent: 34%;
+    --h1-content-font-size: 8vw;
+    --text-content-font-size: 4vw;
+  }
+}

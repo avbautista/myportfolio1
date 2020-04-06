@@ -1,0 +1,36 @@
+.NavigationItem {
+  font-family: var(--default-header-font);
+  margin-top: calc(3px + 1.5vmin); 
+  margin-left: 3.1vh; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-size: var(--fontsize-nav);
+  text-decoration: none;
+  color: white;
+}
+
+.NavigationActive {
+  font-weight: bolder;
+  color: var(--default-highlight-color);
+}
+
+li {
+  list-style-type: none !important;
+  margin-top: var(--default-margin-top);
+  margin-left: var(--default-margin-left);
+}
+
+@media only screen and (max-width: 1500px) {
+  .NavigationItem {
+    margin-top: calc(1.5px + 1vmin); 
+    margin-left: 3.1vh; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .NavigationItem {
+    margin-top: 2vh; 
+    margin-left: 2vh; 
+  }
+}
+

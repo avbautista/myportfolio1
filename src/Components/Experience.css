@@ -1,0 +1,24 @@
+.Experience {
+  margin-top: calc(40px + 5vmin);
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 100%;
+  text-align: center;
+}
+
+.Experience h1 {
+  font-family: var(--default-title-font); 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 1000; 
+  line-height: 26.4px;
+  font-size: var(--h1-content-font-size);
+  color: var(--default-title-color);
+}
+
+.experienceCards {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
