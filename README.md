@@ -1,2 +1,2 @@
-# myportfolio1
+# Portfolio Project
 Portfolio created using ReactJS
