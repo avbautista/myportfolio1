@@ -14,7 +14,7 @@ class NavigationBar extends Component {
   render() {
     return (
       <div className="NavigationBar">
-        <NavigationItem item="Home" toLink="/" />
+        <NavigationItem item="Home" toLink="/portfolio-project" />
         <NavigationItem item="Experience" toLink="/experience" />
         <NavigationItem item="Portfolio" toLink="/portfolio" />
         <NavigationItem item="Contacts" toLink="/contacts" />
