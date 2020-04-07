@@ -2,6 +2,7 @@ import React from 'react';
 import packageJson from '../package.json';
 global.appVersion = packageJson.version;
 
+/* Not usable for Github pages! */
 // version from response - first param, local version second param
 const semverGreaterThan = (versionA, versionB) => {
   const versionsA = versionA.split(/\./g);
