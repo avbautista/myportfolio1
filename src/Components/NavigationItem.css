@@ -1,5 +1,5 @@
 .NavigationItem {
-  margin-left: 1.2vh;
+  margin-left: 1vw;
   font-family: var(--default-header-font);
   font-style: normal; 
   font-variant: normal; 
@@ -16,3 +16,10 @@
 li {
   list-style-type: none !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .NavigationItem {
+    margin-left: 1.5vw;
+  }
+}
+

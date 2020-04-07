@@ -48,6 +48,6 @@
   .HomeContent {
     margin-top: 5vh;
     grid-template-columns: none;
-    grid-template-rows: 80px 65px;
+    grid-template-rows: 75px 65px;
   }
 }
