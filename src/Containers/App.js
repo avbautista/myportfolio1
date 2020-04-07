@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import
 {
   BrowserRouter as Router,
@@ -12,7 +12,8 @@ import NavigationBar from './NavigationBar.js';
 import Home from '../Components/Home.js';
 import Experience from '../Components/Experience';
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <CacheBuster>
       {({ loading, isLatestVersion, refreshCacheAndReload }) => {
@@ -38,6 +39,7 @@ function App() {
       }}
     </CacheBuster>
   );
+  }
 }
 
 export default App;
