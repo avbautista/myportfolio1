@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-project/static/css/main.ecdfa022.chunk.css",
-    "main.js": "/portfolio-project/static/js/main.12dd548a.chunk.js",
-    "main.js.map": "/portfolio-project/static/js/main.12dd548a.chunk.js.map",
+    "main.css": "/portfolio-project/static/css/main.c8b22ec9.chunk.css",
+    "main.js": "/portfolio-project/static/js/main.d087cbda.chunk.js",
+    "main.js.map": "/portfolio-project/static/js/main.d087cbda.chunk.js.map",
     "runtime-main.js": "/portfolio-project/static/js/runtime-main.275ed2c7.js",
     "runtime-main.js.map": "/portfolio-project/static/js/runtime-main.275ed2c7.js.map",
-    "static/js/2.f1b28f34.chunk.js": "/portfolio-project/static/js/2.f1b28f34.chunk.js",
-    "static/js/2.f1b28f34.chunk.js.map": "/portfolio-project/static/js/2.f1b28f34.chunk.js.map",
+    "static/js/2.5e80627c.chunk.js": "/portfolio-project/static/js/2.5e80627c.chunk.js",
+    "static/js/2.5e80627c.chunk.js.map": "/portfolio-project/static/js/2.5e80627c.chunk.js.map",
     "index.html": "/portfolio-project/index.html",
-    "precache-manifest.438900737f5b1fae618d07e7fb0f2d0e.js": "/portfolio-project/precache-manifest.438900737f5b1fae618d07e7fb0f2d0e.js",
+    "precache-manifest.8f2b5e1317efb8633f7f70db5f4384be.js": "/portfolio-project/precache-manifest.8f2b5e1317efb8633f7f70db5f4384be.js",
     "service-worker.js": "/portfolio-project/service-worker.js",
-    "static/css/main.ecdfa022.chunk.css.map": "/portfolio-project/static/css/main.ecdfa022.chunk.css.map",
-    "static/js/2.f1b28f34.chunk.js.LICENSE.txt": "/portfolio-project/static/js/2.f1b28f34.chunk.js.LICENSE.txt",
-    "static/media/Header.css": "/portfolio-project/static/media/header-mobile.7d6d91f2.jpg"
+    "static/css/main.c8b22ec9.chunk.css.map": "/portfolio-project/static/css/main.c8b22ec9.chunk.css.map",
+    "static/js/2.5e80627c.chunk.js.LICENSE.txt": "/portfolio-project/static/js/2.5e80627c.chunk.js.LICENSE.txt",
+    "static/media/ads-management-system.JPG": "/portfolio-project/static/media/ads-management-system.153f884d.JPG",
+    "static/media/godot-project.JPG": "/portfolio-project/static/media/godot-project.229ebdc4.JPG",
+    "static/media/Header.css": "/portfolio-project/static/media/header-mobile.7d6d91f2.jpg",
+    "static/media/portfolio-project.JPG": "/portfolio-project/static/media/portfolio-project.d3abbb10.JPG",
+    "static/media/scheduler-application.JPG": "/portfolio-project/static/media/scheduler-application.9f167bd3.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.275ed2c7.js",
-    "static/js/2.f1b28f34.chunk.js",
-    "static/css/main.ecdfa022.chunk.css",
-    "static/js/main.12dd548a.chunk.js"
+    "static/js/2.5e80627c.chunk.js",
+    "static/css/main.c8b22ec9.chunk.css",
+    "static/js/main.d087cbda.chunk.js"
   ]
 }
