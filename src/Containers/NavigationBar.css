@@ -1,7 +1,7 @@
 .NavigationBar {
     background-color: rgba(0,0,0,0.6);
     height: var(--nav-bar-height);
-    min-height: 50px;
+    min-height: 90px;
     z-index: 1;
     display: flex;
     justify-content: center;
@@ -18,7 +18,13 @@
     font-weight: bolder;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 3000px) {
+  .NavigationBar {
+    min-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
   .NavigationBar {
     min-height: 50px;
   }

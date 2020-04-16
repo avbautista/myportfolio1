@@ -1,20 +1,20 @@
-.ExperienceCard {
+.PortfolioCard {
   display: grid;
-  grid-template-rows: 9% 8% 5% 10% 1fr;
-  margin-top: 3vh;
+  grid-template-rows: 10% 7% 60% 8% 15%;
+  margin-top: 4vh;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1vh;
   padding-bottom: 1vh;
   height: 65vh;
-  min-height: 1300px;
-  width: 26vw;
+  min-height: 700px;
+  width: 38vw;
   border: 2px solid rgba(0,0,0,0.7);
   border-radius: 3%;
   box-shadow: 0 5px 10px -2px gray;
 }
 
-.ExperienceCard h1 {
+.PortfolioCard h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   color: var(--default-title-color);
 }
 
-.ExperienceCard h2 {
+.PortfolioCard h2 {
   display: block;
   margin-top: calc(2px + 1vh);
   margin-bottom: 0;
@@ -34,11 +34,22 @@
   color: var(--default-title-color);
 }
 
-.ExperienceCard p {
+.PortfolioCard p {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 95%;
+  margin-top: calc(2px + 2.5vh);
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--default-text-font);
+  font-size: var(--text-content-font-size-small);
+  color: rgba(0,0,0,0.7);
+}
+
+.repository {
+  width: 50%;
   margin-top: calc(2px + 2vh);
   margin-bottom: 0;
   margin-left: auto;
@@ -48,87 +59,64 @@
   color: rgba(0,0,0,0.7);
 }
 
-.ExperienceCard ul {
-  width: 80%;
-  margin: auto;
-  padding-left: 2vw;
-  padding-bottom: 1vh;
-  text-align: left;
-  font-family: var(--default-text-font);
-  font-size: var(--text-content-font-size-small);
+.github {
   color: rgba(0,0,0,0.7);
 }
 
-.ExperienceCard li {
-  margin-top: 1vh;
-  list-style-type: disc !important;
-}
-
-.nonDate {
+.gitlab {
   color: rgba(0,0,0,0.7);
 }
 
-.titleSeparator {
+.social:hover {
+  color: var(--default-title-color);
+}
+
+.imageHolder {
   margin-top: calc(2px + 1.5vh);
-  color: rgba(0,0,0,0.7);
-  border-top: 2px solid rgba(0,0,0,0.7);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(0,0,0,0.7);
+  background-size: cover center;
+  box-shadow: 0 5px 10px -2px gray;
 }
 
 @media only screen and (max-width: 3000px)  {
-  .ExperienceCard {
+  .PortfolioCard {
     height: 65vh;
     min-height: 820px;
   }
 }
 
 @media only screen and (max-width: 2000px)  {
-  .ExperienceCard {
+  .PortfolioCard {
     height: 65vh;
-    min-height: 700px;
+    min-height: 620px;
   }
 }
 
 @media only screen and (max-width: 1500px)  {
-  .ExperienceCard {
+  .PortfolioCard {
+    grid-template-rows: 10% 7% 58% 10% 15%;
     height: auto;
-    min-height: 385px;
+    min-height: 450px;
   }
 }
 
-
 @media only screen and (max-width: 1000px)  {
-  .ExperienceCard {
+  .PortfolioCard {
+    grid-template-rows: 10% 7% 57% 10% 16%;
     height: auto;
     min-height: 300px;
   }
 }
 
 @media only screen and (max-width: 600px)  {
-  .ExperienceCard {
+  .PortfolioCard {
+    grid-template-rows: 10% 7% 58% 10% 15%;
     margin-top: 3vh;
-    width: 80%;
-    min-height: 250px;
-  }
-
-  .ExperienceCard h1 {
-    margin-top: 0.2vh;
-    font-size: var(--h1-content-font-size-small);
-  }
-
-  .ExperienceCard h2 {
-    margin-top: calc(2px + 0.3vh);
-    font-size: var(--h2-content-font-size-small);
-  }
-
-  .ExperienceCard p {
-    font-size: var(--text-content-font-size-small);
-  }
-
-  .ExperienceCard ul {
-    font-size: var(--text-content-font-size-small);
-  }
-
-  .titleSeparator {
-    margin-top: calc(2px + 1vh);
+    width: 100%;
+    height: auto;
+    min-height: 300px;
   }
 }

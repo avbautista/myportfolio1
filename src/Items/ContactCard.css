@@ -1,0 +1,110 @@
+.ContactCard {
+  display: grid;
+  grid-template-rows: 20% 15% 15% 20% 15% 15%;
+  margin-top: 3vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  height: auto;
+  min-height: 1300px;
+  width: 40vw;
+  border: 2px solid rgba(0,0,0,0.7);
+  border-radius: 3%;
+  box-shadow: 0 5px 10px -2px gray;
+}
+
+.ContactCard h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(2px + 1.5vh);
+  margin-bottom: 0;
+  font-family: var(--default-text-font);
+  font-size: var(--h1-content-font-size-small);
+  color: var(--default-title-color);
+}
+
+.ContactCard p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-top: calc(2px + 2.5vh);
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--default-text-font);
+  font-size: var(--text-content-font-size-small);
+  color: rgba(0,0,0,0.7);
+}
+
+.socials {
+  width: 20%;
+  margin-top: calc(2px + 2vh);
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--default-text-font);
+  font-size: var(--text-content-font-size-small);
+  color: rgba(0,0,0,0.7);
+}
+
+.linkedin {
+  margin-right: 0.8vw;
+  color: rgba(0,0,0,0.7);
+}
+
+.instagram {
+  margin-left: 0.8vw;
+  color: rgba(0,0,0,0.7);
+}
+
+.social:hover {
+  color: var(--default-title-color);
+}
+
+@media only screen and (max-width: 3000px)  {
+  .ContactCard {
+    height: auto;
+    min-height: 620px;
+  }
+}
+
+@media only screen and (max-width: 2000px)  {
+  .ContactCard {
+    height: auto;
+    min-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1500px)  {
+  .ContactCard {
+    height: auto;
+    min-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1000px)  {
+  .ContactCard {
+    height: auto;
+    min-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .ContactCard {
+    margin-top: 5vh;
+    width: 80%;
+    min-height: 200px;
+  }
+
+  .ContactCard h1 {
+    margin-top: 0.2vh;
+    font-size: calc(var(--h1-content-font-size-small) * 0.9);
+  }
+
+  .ContactCard p {
+    font-size: calc(var(--text-content-font-size-small) * 0.9);
+  }
+}

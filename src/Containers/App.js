@@ -10,6 +10,8 @@ import './App.css';
 import NavigationBar from './NavigationBar.js';
 import Home from '../Components/Home.js';
 import Experience from '../Components/Experience';
+import Portfolio from '../Components/Portfolio';
+import Contact from '../Components/Contact';
 
 class App extends Component {
   render() {
@@ -20,8 +22,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/experience" component={Experience} />
-            <Route path="/portfolio" component={Home} />
-            <Route path="/contacts" component={Home} />
+            <Route path="/portfolio" component={Portfolio} />
+            <Route path="/contacts" component={Contact} />
             <Route component={Home} />
           </Switch>
         </div>

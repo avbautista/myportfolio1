@@ -1,9 +1,12 @@
 @import url("//fonts.googleapis.com/css?family=Playfair+Display");
 @import url("//fonts.googleapis.com/css?family=Merriweather");
 
+/* vw will be used for scalable text depending on window size, rem is faulty when a user's font
+in browser is different (chrome://settings/fonts). I can use px but decided to use vw for scaling on 
+large and small devices. Readability, I think, is not an issue as the font size is big enough. */
+
 :root{
   --nav-bar-height: 7vh;
-  --fontsize-nav: calc(5px + 1.5vw);
   --default-header-font: 'Playfair Display';
   --default-text-font: 'Merriweather';
   --default-title-font: 'Merriweather';
@@ -14,13 +17,23 @@
   --default-margin-top: 1.9vh;
   --default-margin-left: 2vw;
   --navigation-percent: 70%;
+  --fontsize-nav: calc(5px + 1.5vw);
   --h1-content-font-size: 3.5vw;
+  --h1-content-font-size-small: calc(2px + 2vw);
+  --h2-content-font-size-small: calc(2px + 1.3vw);
   --text-content-font-size: 1.8vw;
+  --text-content-font-size-small: calc(2px + 1.35vw);
 }
 
 .App {
   display: grid;
-  grid-template-rows: 0px 0px 0px;
+  grid-template-rows: 0;
+}
+
+@media only screen and (max-width: 3000px) {
+  :root{
+    --text-content-font-size-small: calc(2px + 1.5vw);
+  }
 }
 
 @media only screen and (max-width: 1500px) {
@@ -28,7 +41,7 @@
     --fontsize-nav: calc(2px + 1.7vw);
     --default-margin: 8px;
     --navigation-percent: 68%;
-    
+    --text-content-font-size-small: calc(2px + 1.2vw);
   }
 }
 
@@ -45,12 +58,16 @@
 
 @media only screen and (max-width: 600px) {
   :root{
+    --nav-bar-height: 5vh;
     --fontsize-nav: 3.5vw;
     --default-margin: 2.2vh;
     --default-margin-top: 1.7vh;
     --default-margin-left: 4vw;
     --navigation-percent: 34%;
     --h1-content-font-size: 6vw;
+    --h1-content-font-size-small: calc(2px + 4vw);
+    --h2-content-font-size-small: calc(2px + 2.5vw);
     --text-content-font-size: 4vw;
+    --text-content-font-size-small: calc(2px + 2.8vw);
   }
 }

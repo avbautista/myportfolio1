@@ -32,17 +32,23 @@
 .HeaderButton{
   background-color: var(--default-highlight-color);
   width: 11% !important;
-  height: 4vh !important;
+  height: 70px !important;
   border-width: 1px;
   border-radius: 4vh;
   border-color: var(--default-highlight-color);
   cursor: pointer;
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 45%;
   left: 30vw;
   font-family: var(--default-text-font);
   font-size: calc(7px + 1vw);
+}
+
+.HeaderButton:hover{
+  background-color: var(--default-header-color);
 }
 
 .HeaderButton:focus{

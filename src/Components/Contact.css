@@ -1,13 +1,13 @@
-.Experience {
+.Contact {
   margin-top: calc(40px + 7vh);
   margin-left: auto;
   margin-right: auto;
-  width: 93%;
+  width: 95%;
   height: 100%;
   text-align: center;
 }
 
-.Experience h1 {
+.Contact h1 {
   font-family: var(--default-title-font); 
   font-style: normal; 
   font-variant: normal; 
@@ -17,7 +17,7 @@
   color: var(--default-title-color);
 }
 
-.Experience h2 {
+.Contact h2 {
   font-family: var(--default-title-font);
   width: 90%;
   margin-bottom: 0; 
@@ -30,25 +30,20 @@
   color: rgba(0,0,0,0.7);
 }
 
-.experienceCards {
+.contactCards {
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 @media only screen and (max-width: 1500px)  {
-  .Experience {
+  .Contact {
     margin-top: calc(40px + 5vh);
   }
 }
 
 @media only screen and (max-width: 600px)  {
-  .Experience {
+  .Contact {
     margin-top: calc(40px + 3.5vh);
-  }
-
-  .experienceCards {
-    grid-template-columns: none;
-    grid-template-rows: 1fr 1fr 1fr;
   }
 }
